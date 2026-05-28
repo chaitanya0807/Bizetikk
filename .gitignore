@@ -1,0 +1,22 @@
+# Environments
+venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+
+# Node
+node_modules/
+.next/
+out/
+build/
+.DS_Store
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
