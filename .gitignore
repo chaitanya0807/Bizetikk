@@ -20,3 +20,8 @@ build/
 
 # Windows
 Thumbs.db
+
+# Assignment resources
+.jetro/
+TAKE-HOME ASSIGNMENT.pdf
+assignment_text.txt
