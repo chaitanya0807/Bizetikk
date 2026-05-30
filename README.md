@@ -4,7 +4,7 @@ ScreenIQ is a full-stack application built for internal HR teams to screen candi
 
 ---
 
-## 🚀 Setup Guide
+##  Setup Guide
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -76,7 +76,7 @@ The prompt is designed using a strict System/User separation.
 
 ---
 
-## 💻 Part B: Frontend Architecture
+##  Part B: Frontend Architecture
 
 ### Task B-1: State Management Choice
 - **Decision**: Used local component state (`useState` and `useReducer`) instead of a global store like Redux or Zustand.
@@ -92,7 +92,7 @@ The prompt is designed using a strict System/User separation.
 
 ---
 
-## ⚡ Part C: AI Integration & Streaming
+##  Part C: AI Integration & Streaming
 
 ### Task C-1: Streaming Approach
 - **Decision**: Server-Sent Events (SSE) via Django `StreamingHttpResponse` and Next.js `ReadableStream`.
@@ -111,7 +111,7 @@ If bias is detected, I would take several steps:
 
 ---
 
-## 🧪 Tests
+##  Tests
 
 I wrote 3 core tests targeting the most critical, failure-prone logic:
 1. `test_normaliser_edge_cases`: Tests the AI output normaliser against decimals, words, and garbage inputs (Task B-3).
